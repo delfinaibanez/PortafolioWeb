@@ -22,7 +22,7 @@ h2 {
 }
 h3 {
   font-size: 2em;
-  color: #f4bf96;
+  color: black;
 }
 a {
   font-size: 1.7em;
@@ -51,6 +51,7 @@ a{
 }
 
 
+
  button {
   font-size: 2em;
   font-weight: bold;
@@ -63,7 +64,7 @@ a{
   transition: 1s;
 }
 button:hover {
-  color :black;
+  color :#ce5a67;
 }
 .container {
   max-width: 1400px;
@@ -265,7 +266,7 @@ width: 300px;
 
 
  i{
-     color: #f4bf96;
+     color: #F1B4BB;
      padding: 7px;
  }
 footer {
@@ -290,7 +291,6 @@ footer .container {
    
    #final button {
         padding: 20px;
-     font-size: vw;
    
    
    }
@@ -312,22 +312,11 @@ display: flex;
 
 }
 
-
-
-
  
 .container_skills  {
   padding: 20px;
        }
-   .container_skills li {
- background-color: #f4bf96;
- width: 150px;
- height: 50px;
- border-radius: 100px;
- box-shadow: #ce5a67 0px 0px 20px;
 
- 
-   }
    .container_skills p {
    align-items: center;
        }
@@ -447,7 +436,7 @@ display: flex;
  padding: 20px;
       }
   .container_skills li {
-background-color: #f4bf96;
+background-color: #F1B4BB;
 width: 150px;
 height: 50px;
 border-radius: 100px;
@@ -482,10 +471,13 @@ font-size: 1.2em;
  }
  #hero h2 {
 font-size: 2em;
-top: 100px;position: relative;
+top: 100px;
+position: relative;
 background-color: #ce5a6859;
 
  }
+
+ 
  .boton_descargar{
 padding: 0px;
 height: 2em;
@@ -503,7 +495,12 @@ top: 130px;position: relative;
 font-size: 0em;
  }
 
-  
+ .container_skills li {
+  background-color: #F1B4BB;
+  width: 150px;
+  height: 50px;
+  border-radius: 100px;
+  box-shadow: #ce5a67 0px 0px 20px;
 
   
 .container h2 {
@@ -511,7 +508,6 @@ font-size: 0em;
   font-size: 1em;
 }
 .carta h3{
-  color: black;
   padding: 2px;
 }
 .boton_github{
@@ -536,7 +532,9 @@ left: 60px;
 
 
 }
+
 #todo{
   width: 96%
+}
 }
 }
